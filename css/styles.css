@@ -1,0 +1,94 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+
+}
+
+body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Шапка сайта */
+.logo {
+    color: #2196F3;
+}
+
+.top-studio {
+    color: #000000;
+}
+
+.bottom-studio {
+    color: #FFFFFF;
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-text-color);
+}
+
+.top-contacts .link {
+    color: #757575;
+}
+
+.top-contacts .link:hover {
+    color: var(--accent-text-color);
+}
+
+/* Герой */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+/* Кнопка */
+.button {
+    background-color: var(--accent-text-color);
+    color: #FFFFFF;
+}
+
+/* Секції */
+.section-title {
+    color: var(--title-text-color);
+}
+
+
+/* Особливості */
+.features-list .title {
+    color: var(--title-text-color);
+}
+
+/* Наша команда */
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+/* Підвал */
+.footer {
+    background-color: #2F303A;
+}
+
+.footer .address {
+    color: #FFFFFF;
+}
+
+.bottom-contacts .link {
+    color: rgba(255, 255, 255, 0.6);
+}
